@@ -1,0 +1,484 @@
+@charset "utf-8";
+/* CSS Document start Sudip css style 6.1.12 */
+body{
+	margin:0;
+	padding:0px 0 0px 0;
+	font:normal 13px/15px Arial, Helvetica, sans-serif;
+	color:#000;
+	background: url(../images/body_bg.gif) left top repeat;
+	}
+/*======================general==========================*/	
+#contener_part ol li{
+		font:normal 12px/16px Arial, Helvetica, sans-serif;
+		color:#fcf2d7;
+		padding:10px 0 0 0px;
+		list-style-type:decimal;
+}
+
+
+  div, tr, td, img, form, input, select, p, h1, h2, h3, h4, h5, h6, ul, li, label, textarea, chexbox, radiobutton, ol, option{
+		padding:0;
+		margin:0;
+		}
+	ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+		}
+	/*ol{
+		padding:0;
+		margin:0;
+		list-style-type:none;
+		}*/	
+	a{
+		padding:0;
+		margin:0;
+		text-decoration:none;
+		outline:none;
+		cursor:pointer;
+		}
+	img{
+		padding:0;
+		margin:0;
+		outline:none;
+		border:0;
+		}
+	chexbox{
+		padding:0;
+		margin:0;
+		width:20px;
+		height:20px;
+		}	
+	.spacer{
+		padding:0;
+		margin:0;
+		font-size:0;
+		line-height:0;
+		clear:both;
+		}
+	object{
+		padding:0;
+		margin:0;
+		line-height:0;
+		font-size:0;
+		}
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('../fonts/myriadprosemibold-webfont.eot');
+    src: url('../fonts/myriadprosemibold-webfont.eot#iefix') format('embedded-opentype'),
+         url('../fonts/myriadprosemibold-webfont.woff') format('woff'),
+         url('../fonts/myriadprosemibold-webfont.ttf') format('truetype'),
+         url('../fonts/myriadprosemibold-webfont.svgz#MyriadProSemibold') format('svg'),
+         url('../fonts/myriadprosemibold-webfont.svg#MyriadProSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}	
+@font-face {
+    font-family: 'MyriadProSemiboldCondensed';
+    src: url('../fonts/myriadprosemiboldcond-webfont.eot');
+    src: url('../fonts/myriadprosemiboldcond-webfont.eot#iefix') format('embedded-opentype'),
+         url('../fonts/myriadprosemiboldcond-webfont.woff') format('woff'),
+         url('../fonts/myriadprosemiboldcond-webfont.ttf') format('truetype'),
+         url('../fonts/myriadprosemiboldcond-webfont.svgz#MyriadProSemiboldCondensed') format('svg'),
+         url('../fonts/myriadprosemiboldcond-webfont.svg#MyriadProSemiboldCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*======================generalend==========================*/
+#toppart{
+		width:100%;
+		margin:0 auto;
+		background:url(../images/top_bg.gif) left top repeat-x;
+}
+#maincontener{
+		width:946px;
+		margin:0 auto;
+}
+/*===========menu part==========*/
+#menu_part{
+		float:right;
+		margin:0 0 0 0px;
+}
+#menu_part ul{
+		float:right;
+		padding:0;
+}
+#menu_part ul li{
+		float:left;
+		padding:0;
+}
+#menu_part ul li a{
+		float:left;
+		padding:0 14px 0 14px;
+		font:normal 16px/51px "MyriadProSemibold";
+		color:#2b1d18;
+		text-transform:uppercase;
+}
+#menu_part ul li a:hover,#menu_part ul li a.active{
+		float:left;
+		padding:0 14px 0 14px;
+		font:normal 16px/51px "MyriadProSemibold";
+		color:#fff8e6;
+		background:url(../images/menu_hover_bg.gif) left top repeat-x;
+}
+/*===========menu part end==========*/
+/*===========logo pannel==========*/
+#logo_pannel{
+		float:right;
+		margin:34px 0 27px 0px;
+}
+#logo_pannel img{
+		display:block;
+}
+/*===========logo pannel end==========*/
+/*===========header banner pannel==========*/
+#header_banner_part{
+		width:946px;
+		margin:0 auto;
+}
+#header_banner_part img{
+		display:block;
+}
+/*===========header banner pannel end==========*/
+/*===========contener part==========*/
+#contener_part{
+		width:946px;
+		margin:0 auto;
+		position:relative;
+		padding:38px 0 22px 0px;
+}
+#contener_part h1{
+		font:normal 30px/30px "MyriadProSemiboldCondensed";
+		color:#fff;
+		text-transform:uppercase;
+		padding:0;
+		margin:0;
+}
+#contener_part h3{
+		font:normal 20px/24px "MyriadProSemiboldCondensed";
+		color:#fff;
+		text-transform:uppercase;
+		padding:0;
+		margin:0;
+}
+.img_cls h2{
+		font:normal 24px/24px "MyriadProSemiboldCondensed";
+		color:#fff;
+		text-transform:uppercase;
+		padding:0;
+		margin:0;
+}
+.img_cls h4{
+		font:normal 18px/24px "MyriadProSemiboldCondensed";
+		color:#fff;
+		text-transform:uppercase;
+		padding:0;
+		margin:0;
+}
+.img_cls h5{
+		font:normal 14px/24px "MyriadProSemiboldCondensed";
+		color:#fff;
+		text-transform:uppercase;
+		padding:0;
+		margin:0;
+}
+.img_cls h6{
+		font:normal 11px/24px "MyriadProSemiboldCondensed";
+		color:#fff;
+		text-transform:uppercase;
+		padding:0;
+		margin:0;
+}
+#contener_part p{
+		font:normal 12px/16px Arial, Helvetica, sans-serif;
+		color:#fcf2d7;
+		padding:17px 0 0 0px;
+}
+#contener_part ul{
+		font:normal 12px/16px Arial, Helvetica, sans-serif;
+		color:#fcf2d7;
+		padding:2px 0px 0 10px !important;
+}
+
+
+#contener_part ul li{
+		font:normal 12px/16px Arial, Helvetica, sans-serif;
+		color:#fcf2d7;
+		padding:10px 0 0 0px;
+		list-style:disc;
+}
+
+
+#contener_part p a{
+		/*color:#7f6055;*/
+		color:#99CCFF;
+		/*text-transform:uppercase;*/
+}
+#contener_part p a:hover{
+		color:#fff;
+}
+.ourcatagury{
+		background:url(../images/our_catalog.png) left top no-repeat;
+		position:absolute;
+		right:26px;
+		top:-48px;
+		width:303px;
+		height:255px;
+}
+
+.ourcatagury h2{
+		font:normal 25px/47px "MyriadProSemiboldCondensed";
+		color:#291c17;
+		padding:0 0 0 29px;
+		text-transform:uppercase;
+}
+.ourcatagury p{
+		font:normal 11px/14px Arial, Helvetica, sans-serif;
+		color:#fff8e6;
+		padding:14px 0 15px 29px !important;
+}
+.ourcatagury p a{
+		color:#fff8e6 !important;
+		text-transform:lowercase !important;
+		text-decoration:underline !important;
+}
+.ourcatagury img{
+		display:block;
+		margin:0 0 0 29px;
+}
+.googlemap{
+		background:url(../images/our_catalog.png) left top no-repeat;
+		position:absolute;
+		right:26px;
+		top:224px;
+		width:303px;
+		height:255px;
+}
+.googlemap h2{
+		font:normal 25px/47px "MyriadProSemiboldCondensed";
+		color:#291c17;
+		padding:0 0 0 29px;
+		text-transform:uppercase;
+}
+.map{
+		margin:15px 0 0 15px;
+}
+
+/*===========contener part end==========*/
+/*===========footer pannel==========*/
+#footer_pannel{
+		width:946px;
+		margin:0 auto;
+		border-top:1px solid #513123;
+		font:normal 10px/14px Arial, Helvetica, sans-serif;
+		color:#553e35;
+		padding:16px 0 18px 0px;
+		text-transform:uppercase;
+}
+#footer_pannel a{
+		color:#553e35;
+		
+}
+#footer_pannel a:hover{
+		color:#f5ebd2;
+}
+.rightfooter{
+		float:right;
+}
+#footer_pannel a.active{
+		color:#f5ebd2;
+}
+/*===========footer pannel end==========*/
+/*======================form area start==========================*/	
+.formpannel{
+	width:400px;
+	float:left;
+	margin:20px 0 20px 6px;
+	}
+.formpannel label{
+	font:normal 12px/20px Arial, Helvetica, sans-serif;
+	color:#fcf2d7;
+	float:left;
+	width:100px;
+	text-align:left;
+	display:block;
+	margin:15px 15px 0 0px;
+	}
+.formpannel .input1{
+	width:273px;
+	height:23px;
+	background-color:#fff;
+	padding:0 0 0 3px;
+	margin:15px 0 0 0;
+	font:11px Arial, Helvetica, sans-serif; color:#666666;
+	border:1px inset #CCCCCC;
+	}
+	
+.formpannel .input2{
+	width:273px;
+	height:100px;
+	background-color:#fff;
+	border:1px inset #CCCCCC;
+	padding:0 0 0 3px;
+	margin:15px 0 0 0;
+	font:11px Arial, Helvetica, sans-serif; color:#666666;
+	}	
+		
+.formpannel .select{
+	width:273px;
+	height:23px;
+	background-color:#fff;
+	border:1px inset #CCCCCC;
+	padding:0 0 0 3px;
+	margin:15px 0 0 0;
+	font:11px Arial, Helvetica, sans-serif; color:#666666;
+	}
+.formpannel .submit {
+	background-color:#fff8e6; 
+	color: #000;
+	border-bottom: #fff8e6 2px outset;
+	border:none;
+	cursor:pointer;
+	font-weight:bold;
+	width:80px;
+	height:25px;
+	padding:0 0 2px 0px;
+	margin:20px 10px 0 117px;
+}
+
+.formpannel .submit2 {
+	background-color:#fff8e6; 
+	color: #000;
+	border-bottom: #fff8e6 2px outset;
+	border:none;
+	cursor:pointer;
+	width:80px;
+	height:25px;
+	font-weight:bold;
+	padding:0 0 2px 0px;
+	margin:20px 10px 0 5px;
+}
+.informations_pannel{
+		float:right;
+		margin:30px 150px 0 0px;
+		color:#656565;
+}
+.informations_pannel p{
+		color:#656565;
+		font:normal 14px/18px Tahoma, Geneva, sans-serif !important;
+}
+.informations_pannel p a{
+		color:#656565;
+}
+.informations_pannel p a:hover{
+		color:#000;
+		
+}
+		
+.informations_pannel h5{
+		font:normal 20px/20px Arial, Helvetica, sans-serif;
+		color:#403f3f;
+		padding:25px 0 0 0px;
+}
+.informations_pannel a{
+		color:#656565;
+		text-decoration:underline;
+}
+.informations_pannel a:hover{
+		color:#656565;
+		text-decoration:none;
+}
+/*=======maincontener end=======*/
+
+.ourcatagury_contact{
+		background:url(../images/our_catalog.png) left top no-repeat;
+		position:absolute;
+		right:26px;
+		top:-48px;
+		width:303px;
+		height:255px;
+}
+.ourcatagury_contact h2{
+		font:normal 25px/47px "MyriadProSemiboldCondensed";
+		color:#291c17;
+		padding:0 0 0 29px;
+		text-transform:uppercase;
+}
+.ourcatagury_contact p{
+		font:normal 11px/14px Arial, Helvetica, sans-serif;
+		color:#fff8e6;
+		padding:0px 0 0px 29px !important;
+}
+.ourcatagury_contact p a{
+		color:#fff8e6 !important;
+		text-transform:lowercase !important;
+		text-decoration:underline !important;
+}
+.ourcatagury_contact img{
+		display:block;
+		margin:0 0 0 29px;
+}
+
+#contener_part ol li{
+		font:normal 12px/16px Arial, Helvetica, sans-serif;
+		color:#fcf2d7;
+		padding:10px 0 0 0px;
+		list-style-type:decimal;
+}
+.img_cls ol li{
+		font:normal 12px/16px Arial, Helvetica, sans-serif;
+		color:#fcf2d7;
+		padding:10px 0 0 0px;
+		margin-left:20px;
+		list-style-type:decimal;
+}
+
+
+.paginationMN {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#ff0;
+	text-align:right;
+	text-decoration:none;
+	/*width:96%; */
+	background:none!important;
+	margin:20px 85px 0 0;
+	float:right;
+}
+.paginationMN strong {
+	color:#fff;
+}
+.paginationMN a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+	padding:0 5px 0 5px;
+	line-height:30px;
+	margin:0 4px 0 4px;
+	border:1px solid #CCC;
+	line-height:16px;
+}
+.pagionationH ul li a:hover {
+	color:#000;
+	text-decoration:none;
+}
+.paginationMN strong {
+	display: inline-block;
+	font-family: Trebuchet, Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	opacity: 0.87;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 15px;
+	line-height: 16px;
+	color:#716b5d;
+}
+.img_cls img{
+max-width:100%;
+height:auto;
+}
+/*======================generalend end==========================*/
